@@ -1,0 +1,12 @@
+Trie is data structure used for efficient retrieval of a key in a huge set of strings.
+In binary search tree, node in the tree	stores the key associated with that node.
+
+In Trie, node's position in the tree defines the key with which it is associated and the key is
+associated with the leaves.
+It is also known as prefix tree because, all descendants of the node have a common prefix of the string
+associated with the node. The root is associated with empty string.
+
+Trie representation:
+The basic form is that of a linked set of nodes.
+Each node contains an array of child pointers, one for each symbol in the alphabet.
+Node also maintains a flag which tells whether it is end of the key or not.
